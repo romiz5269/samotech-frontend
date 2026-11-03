@@ -2,7 +2,7 @@
 
 import {FormEvent, useEffect, useMemo, useState} from "react";
 
-const API = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000/api";
+const API = process.env.NEXT_PUBLIC_API_URL ?? "https://api.samotechgroup.ir/api";
 const FILE_BASE = API.replace(/\/api$/, "");
 type S = {
   id: string;
